@@ -1,0 +1,187 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.indemovie"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:8:5-76
+14-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+15-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:9:5-76
+15-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:9:22-73
+16
+17    <uses-feature
+17-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:11:5-13:35
+18        android:glEsVersion="0x00020000"
+18-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:12:9-41
+19        android:required="true" />
+19-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:13:9-32
+20    <uses-feature
+20-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:14:5-16:36
+21        android:name="android.hardware.wifi"
+21-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:15:9-45
+22        android:required="false" />
+22-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:16:9-33
+23
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:19:5-79
+24-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:19:22-76
+25
+26    <application
+26-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:11:5-45:19
+27        android:allowBackup="true"
+27-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:13:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:24:18-86
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:14:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:15:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:16:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:17:9-35
+33        android:theme="@style/AppTheme"
+33-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:18:9-40
+34        android:usesCleartextTraffic="true"
+34-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:19:9-44
+35        android:windowSoftInputMode="stateAlwaysHidden" >
+35-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:12:9-56
+36        <activity
+36-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:20:9-22:59
+37            android:name="com.example.indemovie.PopupActivity"
+37-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:21:13-42
+38            android:theme="@android:style/Theme.Dialog" />
+38-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:22:13-56
+39        <activity
+39-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:23:9-32:20
+40            android:name="com.example.indemovie.MainActivity"
+40-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:24:13-41
+41            android:label="@string/app_name"
+41-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:25:13-45
+42            android:theme="@style/AppTheme.NoActionBar" >
+42-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:26:13-56
+43            <intent-filter>
+43-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:27:13-31:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:28:17-69
+44-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:28:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:30:17-77
+46-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:30:27-74
+47            </intent-filter>
+48        </activity> <!-- 내가 추가한 내용 (19.09.21) -->
+49        <activity
+49-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:33:9-41:20
+50            android:name="com.example.indemovie.NMapViewer"
+50-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:34:13-39
+51            android:configChanges="keyboardHidden|orientation" >
+51-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:35:13-63
+52            <intent-filter>
+52-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:36:13-40:29
+53
+54                <!-- <action android:name="android.intent.action.MAIN" /> 이거 왠지 시작시에 해달라는거가 -->
+55                <category android:name="android.intent.category.CATEGORY_DEFAULT" />
+55-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:39:17-85
+55-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:39:27-82
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:42:9-44:66
+59            android:name="com.example.indemovie.FragmentMapActivity"
+59-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:43:13-48
+60            android:configChanges="keyboardHidden|orientation" />
+60-->C:\Users\Administrator\Desktop\indemovie\app\src\main\AndroidManifest.xml:44:13-63
+61        <activity
+61-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:23:9-27:51
+62            android:name="com.naver.maps.map.app.LegendActivity"
+62-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:24:13-65
+63            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+63-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:25:13-91
+64            android:label="@string/navermap_legend"
+64-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:26:13-52
+65            android:theme="@style/navermap_app" />
+65-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:27:13-48
+66        <activity
+66-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:28:9-32:51
+67            android:name="com.naver.maps.map.app.LegalNoticeActivity"
+67-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:29:13-70
+68            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+68-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:30:13-91
+69            android:label="@string/navermap_legal_notice"
+69-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:31:13-58
+70            android:theme="@style/navermap_app" />
+70-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:32:13-48
+71        <activity
+71-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:33:9-37:51
+72            android:name="com.naver.maps.map.app.OpenSourceLicenseActivity"
+72-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:34:13-76
+73            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+73-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:35:13-91
+74            android:label="@string/navermap_open_source_license"
+74-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:36:13-65
+75            android:theme="@style/navermap_app" />
+75-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\860576846777022c3b86de3a2ad0612a\jetified-map-sdk-3.5.0\AndroidManifest.xml:37:13-48
+76        <activity
+76-->[gun0912.ted:tedpermission:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dfef46ea49c76069967661b4d6965470\jetified-tedpermission-2.0.0\AndroidManifest.xml:10:9-12:67
+77            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+77-->[gun0912.ted:tedpermission:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dfef46ea49c76069967661b4d6965470\jetified-tedpermission-2.0.0\AndroidManifest.xml:11:13-75
+78            android:theme="@style/Theme.Transparent.Permission" />
+78-->[gun0912.ted:tedpermission:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dfef46ea49c76069967661b4d6965470\jetified-tedpermission-2.0.0\AndroidManifest.xml:12:13-64
+79        <activity
+79-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8723d9544ecfba2d732c8b2a8710a646\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+80            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+80-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8723d9544ecfba2d732c8b2a8710a646\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+81            android:exported="false"
+81-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8723d9544ecfba2d732c8b2a8710a646\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+82-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8723d9544ecfba2d732c8b2a8710a646\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+83
+84        <provider
+84-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3e70c6e4bf2f017c79ba857dee821f3d\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+85            android:name="com.google.firebase.provider.FirebaseInitProvider"
+85-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3e70c6e4bf2f017c79ba857dee821f3d\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+86            android:authorities="com.example.indemovie.firebaseinitprovider"
+86-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3e70c6e4bf2f017c79ba857dee821f3d\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+87            android:exported="false"
+87-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3e70c6e4bf2f017c79ba857dee821f3d\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+88            android:initOrder="100" />
+88-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3e70c6e4bf2f017c79ba857dee821f3d\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+89
+90        <meta-data
+90-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8e1928ef1ea526ec189b82524bbdba53\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+91            android:name="com.google.android.gms.version"
+91-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8e1928ef1ea526ec189b82524bbdba53\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+92            android:value="@integer/google_play_services_version" />
+92-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8e1928ef1ea526ec189b82524bbdba53\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+93
+94        <provider
+94-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c292ecb9a8de3ae719de415b6368ee80\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+95            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+95-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c292ecb9a8de3ae719de415b6368ee80\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+96            android:authorities="com.example.indemovie.lifecycle-process"
+96-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c292ecb9a8de3ae719de415b6368ee80\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+97            android:exported="false"
+97-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c292ecb9a8de3ae719de415b6368ee80\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+98            android:multiprocess="true" />
+98-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c292ecb9a8de3ae719de415b6368ee80\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+99    </application>
+100
+101</manifest>

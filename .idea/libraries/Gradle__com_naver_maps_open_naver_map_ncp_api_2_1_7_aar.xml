@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.naver.maps.open:naver-map-ncp-api:2.1.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/238466f5836a16e50cdde53165b9e8ab/jetified-naver-map-ncp-api-2.1.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/238466f5836a16e50cdde53165b9e8ab/jetified-naver-map-ncp-api-2.1.7/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.naver.maps.open/naver-map-ncp-api/2.1.7/fa897121ad06e153a6cfb2d7708b83b2484fc99e/naver-map-ncp-api-2.1.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
